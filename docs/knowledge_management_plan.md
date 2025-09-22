@@ -155,3 +155,8 @@ Enable Supabase Row Level Security (RLS) to enforce visibility based on audience
 - Define geographies taxonomy and governance model enumerations.
 - Determine review SLAs for knowledge promotion workflow.
 
+## Repository Deliverables
+- [`supabase/schema.sql`](../supabase/schema.sql) – executable SQL creating tables, helper functions, and RLS policies described above.
+- [`worker/`](../worker) – FastAPI-based Cloud Run worker implementing Drive webhooks, manual re-indexing, and content processing.
+- [`apps_script/`](../apps_script) – Google Workspace Add-on manifest and scripts for folder navigation and manual sync triggers.
+
